@@ -43,7 +43,7 @@ const Login = () => {
     <div>
       <section className="pl-[10rem] flex flex-wrap">
         <div className="mr-[4rem] mt-[5rem]">
-          <h1 className="text-2xl font-semibold mb-4">Sign In</h1>
+          <h1 className="text-2xl font-semibold mb-4">Connexion</h1>
 
           <form onSubmit={submitHandler} className="container w-[40rem]">
             <div className="my-[2rem]">
@@ -51,7 +51,7 @@ const Login = () => {
                 htmlFor="email"
                 className="block text-sm font-medium text-white"
               >
-                Email Address
+                Adresse Email
               </label>
               <input
                 type="email"
@@ -93,12 +93,12 @@ const Login = () => {
 
           <div className="mt-4">
             <p className="text-white">
-              New Customer?{" "}
+              Nouveau Client?{" "}
               <Link
                 to={redirect ? `/register?redirect=${redirect}` : "/register"}
                 className="text-pink-500 hover:underline"
               >
-                Register
+                Inscription
               </Link>
             </p>
           </div>

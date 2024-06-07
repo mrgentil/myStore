@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="065bd3e2-b3d2-4e0c-80f2-7313e0d41f72" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/categoryController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/categoryController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/middlewares/authMiddleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/middlewares/authMiddleware.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/categoryRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/categoryRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/CategoryForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/CategoryForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Admin/CategoryList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Admin/CategoryList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Auth/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Auth/Login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Auth/Navigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Auth/Navigation.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Auth/Register.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Auth/Register.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +102,7 @@
       <workItem from="1717503847673" duration="4748000" />
       <workItem from="1717581194176" duration="1758000" />
       <workItem from="1717584660602" duration="12227000" />
-      <workItem from="1717750404930" duration="1978000" />
+      <workItem from="1717750404930" duration="12128000" />
     </task>
     <servers />
   </component>
