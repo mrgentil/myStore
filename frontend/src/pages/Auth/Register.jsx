@@ -50,7 +50,7 @@ const Register = () => {
   return (
     <section className="pl-[10rem] flex flex-wrap">
       <div className="mr-[4rem] mt-[5rem]">
-        <h1 className="text-2xl font-semibold mb-4">Register</h1>
+        <h1 className="text-2xl font-semibold mb-4">Inscription</h1>
 
         <form onSubmit={submitHandler} className="container w-[40rem]">
           <div className="my-[2rem]">
@@ -58,7 +58,7 @@ const Register = () => {
               htmlFor="name"
               className="block text-sm font-medium text-white"
             >
-              Name
+              Nom
             </label>
             <input
               type="text"
@@ -75,7 +75,7 @@ const Register = () => {
               htmlFor="email"
               className="block text-sm font-medium text-white"
             >
-              Email Address
+              Adresse Email
             </label>
             <input
               type="email"
@@ -92,7 +92,7 @@ const Register = () => {
               htmlFor="password"
               className="block text-sm font-medium text-white"
             >
-              Password
+              Mot de passe
             </label>
             <input
               type="password"
@@ -109,7 +109,7 @@ const Register = () => {
               htmlFor="confirmPassword"
               className="block text-sm font-medium text-white"
             >
-              Confirm Password
+              Confirmation mot de passe
             </label>
             <input
               type="password"
@@ -134,12 +134,12 @@ const Register = () => {
 
         <div className="mt-4">
           <p className="text-white">
-            Already have an account?{" "}
+            Vous avez déjà un compte?{" "}
             <Link
               to={redirect ? `/login?redirect=${redirect}` : "/login"}
               className="text-pink-500 hover:underline"
             >
-              Login
+              Connexion
             </Link>
           </p>
         </div>
